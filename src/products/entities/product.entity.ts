@@ -45,6 +45,12 @@ export class Product {
   @Column('text')
   gender: string;
 
+  @Column('text', {
+    array: true,
+    default: [],
+  })
+  tags: string[];
+
   // this execute before insert or create
   @BeforeInsert()
   checkSlugInsert() {
