@@ -12,9 +12,9 @@ import {
 import { ApiResponse, ApiTags } from '@nestjs/swagger';
 import { ProductsService } from './products.service';
 import { CreateProductDto, UpdateProductDto } from './dto';
-import { PaginationDto } from 'src/common/dto/pagination.dto';
-import { Auth, GetUser } from 'src/auth/decorators';
-import { User } from 'src/auth/entities/users.entity';
+import { PaginationDto } from '../common/dto/pagination.dto';
+import { Auth, GetUser } from '../auth/decorators';
+import { User } from '../auth/entities/users.entity';
 import { Product } from './entities';
 
 @ApiTags('Products')

@@ -9,7 +9,7 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { ProductImage } from './product-image.entity';
-import { User } from 'src/auth/entities/users.entity';
+import { User } from '../../auth/entities/users.entity';
 import { ApiProperty } from '@nestjs/swagger';
 
 @Entity({

@@ -1,5 +1,5 @@
 import { hashSync } from 'bcrypt';
-import { Product } from 'src/products/entities';
+import { Product } from '../../products/entities';
 import {
   BeforeInsert,
   BeforeUpdate,

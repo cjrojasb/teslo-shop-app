@@ -9,7 +9,7 @@ import { MessageWsService } from './message-ws.service';
 import { Server, Socket } from 'socket.io';
 import { NewMessageDto } from './dto/new-message.dto';
 import { JwtService } from '@nestjs/jwt';
-import { JwtPayload } from 'src/auth/interfaces';
+import { JwtPayload } from '../auth/interfaces';
 
 @WebSocketGateway({ cors: true })
 export class MessageWsGateway
