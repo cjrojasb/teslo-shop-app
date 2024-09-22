@@ -18,13 +18,14 @@ npm install
 docker-compose up -d
 ```
 
-6. Execute seed for set initial data to database
+6. Running app in dev mode
+```bash
+npm run start:dev
+```
+
+7. Execute seed for set initial data to database
 ```bash
 http://localhost:8000/api/seed
 ```
 
 
-7. Running app in dev mode
-```bash
-npm run start:dev
-```
